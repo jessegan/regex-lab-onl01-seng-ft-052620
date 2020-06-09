@@ -17,5 +17,3 @@ end
 def valid_phone_number?(phone)
     /\d{3}\W?\d{3}\W?\d{4}/.match?(phone)
 end
-
-puts starts_with_a_vowel?("xa")
